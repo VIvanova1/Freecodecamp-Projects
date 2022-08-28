@@ -25,7 +25,7 @@
             </div>
 
             <div>
-                <label for="age" id="age-label">Age(optional)</label>
+                <label for="age" id="number-label">Age(optional)</label>
                 <input type="number" id="number" name="number" min="14" max="99" placeholder="Age">
 
             </div>
@@ -45,21 +45,21 @@
             <div class="flex">
                 <p>Would you recommend freeCodeCamp to a friend?</p>
                 <label for="recommendation">
-                <input type="radio" name="recommendation" class="flex">Deffinitely
+                <input type="radio" name="recommendation" value="deffinitely" class="flex">Deffinitely
                 </label>
 
                 <label for="recommendation">
-                <input type="radio" name="recommendation" class="flex">Maybe
+                <input type="radio" name="recommendation" value="maybe"class="flex">Maybe
                 </label>
 
                 <label for="recommendation">
-                <input type="radio" name="recommendation" class="flex">Not Sure
+                <input type="radio" name="recommendation" value="notSure" class="flex">Not Sure
                 </label>
             </div>
 
             <div>
                 <label for="favorite" id="favorite">What is your favorite feature of freeCodeCamp?</label>
-                <select name="favorite" id="favorite-option">
+                <select name="favorite" id="dropdown">
                 <option value="default" selected="selected" disabled>Select an option</option>
                 <option value="challenges" >Challenges</option>
                 <option value="projects">Projects</option>
@@ -71,37 +71,37 @@
             <div class="flex">
                 <p>What would you like to see improved? (Check all that apply)</p>
                 <label>
-                    <input type="checkbox" name="self-improved">Front-end Projects
+                    <input type="checkbox" value="frontEnd" name="self-improved">Front-end Projects
                 </label>
                 <label>
-                    <input type="checkbox" name="self-improved">Back-end Projects
+                    <input type="checkbox" value="backEnd"  name="self-improved">Back-end Projects
                 </label>
                 <label>
-                    <input type="checkbox" name="self-improved">Data Visualization
+                    <input type="checkbox" value="dVisualization"  name="self-improved">Data Visualization
                 </label>
                 <label>
-                    <input type="checkbox" name="self-improved">Challenges
+                    <input type="checkbox"  value="challenges" name="self-improved">Challenges
                 </label>
                 <label>
-                    <input type="checkbox" name="self-improved">Open Source Community
+                    <input type="checkbox" value="openSource" name="self-improved">Open Source Community
                 </label>
                 <label>
-                    <input type="checkbox" name="self-improved">Gitter help rooms
+                    <input type="checkbox"  value="gitterHelp"  name="self-improved">Gitter help rooms
                 </label>
                 <label>
-                    <input type="checkbox" name="self-improved">Videos
+                    <input type="checkbox"  value="video"  name="self-improved">Videos
                 </label>
                 <label>
-                    <input type="checkbox" name="self-improved">City Meetups
+                    <input type="checkbox"  value="cityMeet"  name="self-improved">City Meetups
                 </label>
                 <label>
-                    <input type="checkbox" name="self-improved">Wiki
+                    <input type="checkbox"  value="wiki"  name="self-improved">Wiki
                 </label>
                 <label>
-                    <input type="checkbox" name="self-improved">Forum
+                    <input type="checkbox"  value="forum" name="self-improved">Forum
                 </label>
                 <label>
-                    <input type="checkbox" name="self-improved">Additional Courses
+                    <input type="checkbox" value="addCourse" name="self-improved">Additional Courses
                 </label>
             </div>
 
@@ -109,6 +109,8 @@
                 <label for="comments" id="comments">Any comments or suggestions?</label>
                 <textarea name="comments" id="commentsArea"></textarea>
             </div>
+
+            <button class="btn" id="submit" type="submit">Sent</button>
 
         </form>
     </section>
