@@ -42,11 +42,19 @@
                 </select>
             </div>
 
-            <div>
-                <label for="recommendation">Would you recommend freeCodeCamp to a friend?</label>
-                <input type="radio" name="recommendation">Deffinitely
-                <input type="radio" name="recommendation">Maybe
-                <input type="radio" name="recommendation">Not Sure
+            <div class="flex">
+                <p>Would you recommend freeCodeCamp to a friend?</p>
+                <label for="recommendation">
+                <input type="radio" name="recommendation" class="flex">Deffinitely
+                </label>
+
+                <label for="recommendation">
+                <input type="radio" name="recommendation" class="flex">Maybe
+                </label>
+
+                <label for="recommendation">
+                <input type="radio" name="recommendation" class="flex">Not Sure
+                </label>
             </div>
 
             <div>
@@ -57,27 +65,49 @@
                 <option value="projects">Projects</option>
                 <option value="community">Community</option>
                 <option value="open-source">Open Source</option>
-                </select>
+            </select>
             </div>
 
-            <div>
-                <label for="self-improved" id="improved">What would you like to see improved? (Check all that apply)</label>
-                <input type="checkbox" name="self-improved">Front-end Projects
-                <input type="checkbox" name="self-improved">Back-end Projects
-                <input type="checkbox" name="self-improved">Data Visualization
-                <input type="checkbox" name="self-improved">Challenges
-                <input type="checkbox" name="self-improved">Open Source Community
-                <input type="checkbox" name="self-improved">Gitter help rooms
-                <input type="checkbox" name="self-improved">Videos
-                <input type="checkbox" name="self-improved">City Meetups
-                <input type="checkbox" name="self-improved">Wiki
-                <input type="checkbox" name="self-improved">Forum
-                <input type="checkbox" name="self-improved">Additional Courses
+            <div class="flex">
+                <p>What would you like to see improved? (Check all that apply)</p>
+                <label>
+                    <input type="checkbox" name="self-improved">Front-end Projects
+                </label>
+                <label>
+                    <input type="checkbox" name="self-improved">Back-end Projects
+                </label>
+                <label>
+                    <input type="checkbox" name="self-improved">Data Visualization
+                </label>
+                <label>
+                    <input type="checkbox" name="self-improved">Challenges
+                </label>
+                <label>
+                    <input type="checkbox" name="self-improved">Open Source Community
+                </label>
+                <label>
+                    <input type="checkbox" name="self-improved">Gitter help rooms
+                </label>
+                <label>
+                    <input type="checkbox" name="self-improved">Videos
+                </label>
+                <label>
+                    <input type="checkbox" name="self-improved">City Meetups
+                </label>
+                <label>
+                    <input type="checkbox" name="self-improved">Wiki
+                </label>
+                <label>
+                    <input type="checkbox" name="self-improved">Forum
+                </label>
+                <label>
+                    <input type="checkbox" name="self-improved">Additional Courses
+                </label>
             </div>
 
             <div>
                 <label for="comments" id="comments">Any comments or suggestions?</label>
-                <textarea name="comments" id="commentsArea" cols="50" rows="10"></textarea>
+                <textarea name="comments" id="commentsArea" cols="30" rows="10"></textarea>
             </div>
 
         </form>
