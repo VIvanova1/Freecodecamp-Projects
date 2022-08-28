@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+
+/*
+body {
+    background-image: url('/Survey-form/backgr.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+} */
+
+section {
+    width: 100%;
+    border-radius: 35px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+@media screen and (min-width: 768px) {
+    section {
+        max-width: 720px;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    section {
+        max-width: 550px;
+        margin: auto;
+    }
+}
+
+#name,
+#email,
+#number {
+    width: 100%;
+}
+
+div {
+    margin: 20px 10px;
+    padding: 20px;
+}
+
+div label,
+div input {
+    display: block;
+}
+
+.flex label {
+    display: flex;
+}
