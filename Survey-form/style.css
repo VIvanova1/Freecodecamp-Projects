@@ -116,3 +116,11 @@ textarea {
     width: 100%;
     height: 80px;
 }
+
+.btn {
+    display: block;
+    width: 30%;
+    margin: auto;
+    padding: 8px;
+    border-radius: 10px;
+}
