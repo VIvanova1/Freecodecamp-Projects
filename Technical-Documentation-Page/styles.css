@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    background-color: #D9AE96;
+    position: fixed;
+    width: 40%;
+    height: 100%;
+    font-size: 14px;
+    color: #590202;
+}
+
+#main-doc {
+    width: 60%;
+    float: right;
+}
+
+#navbar header {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.nav-link {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    text-decoration: none;
+    color: #590202;
+    font-weight: 900;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    background-color: #590202;
+    color: white;
+}
