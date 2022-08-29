@@ -11,7 +11,7 @@
 
 <body>
     <main id="main-doc">
-        <!-- p*7//code*5//li*1 -->
+        <!-- p*5//code*4//li*1 -->
         <section class="main-section" id="Introduction">
             <header>
                 <h2>Introduction</h2>
@@ -44,16 +44,30 @@
             <header>
                 <h2>Hello world</h2>
             </header>
-            <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:</p>
+            <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:
+            </p>
             <code>function greetMe(yourName) { alert("Hello " + yourName); }
                 greetMe("World");</code>
             <p>Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!</p>
         </section>
-        <section class="main-section" id="">
+        <section class="main-section" id="Constants">
             <header>
-                <h2></h2>
+                <h2>Constants
+                </h2>
             </header>
-            <p></p>
+            <p>You can create a read-only, named constant with the const keyword. The syntax of a constant identifier is the same as for a variable identifier: it must start with a letter, underscore or dollar sign and can contain alphabetic, numeric, or
+                underscore characters.</p>
+            <code>const PI = 3.14;</code>
+            <p>A constant cannot change value through assignment or be re-declared while the script is running. It has to be initialized to a value.<br> The scope rules for constants are the same as those for let block scope variables. If the const keyword
+                is omitted, the identifier is assumed to represent a variable. <br> You cannot declare a constant with the same name as a function or variable in the same scope. For example:</p>
+            <code>  // THIS WILL CAUSE AN ERROR function f() {}; const f = 5; // THIS
+                    WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g;
+                    //statements }
+            </code>
+            <p>However, object attributes are not protected, so the following statement is executed without problems.</p>
+            <code>const MY_OBJECT = {"key": "value"}; MY_OBJECT.key =
+                "otherValue";
+            </code>
         </section>
         <section class="main-section" id="">
             <header>
@@ -69,7 +83,7 @@
             <a href="#Introduction" class="nav-link">Introduction</a>
             <a href="#What_you_should_already_know" class="nav-link">What you should already know</a>
             <a href="#Hello_world" class="nav-link">Hello world</a>
-            <a href="" class="nav-link"></a>
+            <a href="Constants" class="nav-link">Constants</a>
             <a href="" class="nav-link"></a>
         </header>
     </nav>
