@@ -41,3 +41,57 @@
         max-width: 60%;
     }
 }
+
+#about h1 {
+    text-align: center;
+    padding: 15px;
+}
+
+#about #video {
+    width: 90%;
+    display: block;
+    margin: auto;
+    height: auto;
+}
+
+#models h2 {
+    text-align: center;
+    padding: 30px;
+}
+
+#models div {
+    display: flex;
+    width: 60%;
+    margin: 10px auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    border-radius: 40px;
+    background-color: azure;
+}
+
+@media screen and (min-width:769px) {
+    #models {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    h2 {
+        width: 100%;
+    }
+    #models div {
+        width: 20%;
+    }
+    #models div h5 {
+        text-align: center;
+    }
+}
+
+div p {
+    width: 80%;
+}
+
+div h5 {
+    font-size: larger;
+    padding: 10px;
+}
