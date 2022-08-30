@@ -17,6 +17,8 @@
     display: inline-block;
     width: fit-content;
     position: relative;
+    width: 100%;
+    text-align: center;
 }
 
 #nav-bar ul li {
@@ -29,4 +31,13 @@
     color: black;
     text-transform: uppercase;
     font-weight: 500;
+}
+
+@media screen and (min-width:769px) {
+    #header-img {
+        max-width: 20%;
+    }
+    #nav-bar ul {
+        max-width: 60%;
+    }
 }
