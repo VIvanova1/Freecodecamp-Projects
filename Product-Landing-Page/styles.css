@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header-img {
+    padding: 10px;
+}
+
+#nav-bar ul {
+    float: right;
+    width: 60%;
+}
+
+#main {
+    clear: both;
+}
+
+#nav-bar ul li {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#nav-bar ul li a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: large;
+}
