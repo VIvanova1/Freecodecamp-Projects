@@ -3,30 +3,30 @@
     padding: 0;
 }
 
-#header-img {
-    padding: 10px;
+#header {
+    position: sticky;
+    background-color: rgb(97, 97, 97);
 }
 
-#nav-bar ul {
-    float: right;
+#header-img {
+    margin: 10px 55px;
     width: 60%;
 }
 
-#main {
-    clear: both;
+#nav-bar ul {
+    display: inline-block;
+    width: fit-content;
+    position: relative;
 }
 
 #nav-bar ul li {
     display: inline-block;
     padding: 10px;
-    margin-top: 20px;
-    text-align: center;
 }
 
 #nav-bar ul li a {
     text-decoration: none;
     color: black;
     text-transform: uppercase;
-    font-weight: 800;
-    font-size: large;
+    font-weight: 500;
 }
