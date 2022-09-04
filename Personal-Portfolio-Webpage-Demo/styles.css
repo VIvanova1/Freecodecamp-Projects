@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+#welcome-section {
+    background-color: black;
+    min-height: 100vh;
+}
+
+#navbar {
+    background-color: brown;
+}
+
+#navbar ul {
+    text-align: end;
+}
+
+#navbar ul li {
+    display: inline-block;
+    padding: 20px;
+    font-size: larger
+}
+
+#navbar ul li a {
+    text-decoration: none;
+}
+
+#welcome-section h1 {
+    display: block;
+    text-align: center;
+    margin: 30% auto;
+    font-size: 52px;
+    width: 50%;
+}
